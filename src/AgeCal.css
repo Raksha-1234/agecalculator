@@ -1,0 +1,75 @@
+.parent{
+    width: 100%;
+    height: 730px;
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #334D50, #CBCAA5);
+}
+.container{
+    height: 410px;
+    width: 370px;
+    border: 2px solid black;
+    padding: 30px;
+    background: linear-gradient(180deg, #4203a9, #90bafc);
+    color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 3px 3px 5px 2px rgb(68, 68, 107);
+  border: none;
+  z-index: 1;
+  border-radius: 5px;
+}
+input[type=date]{
+    padding: 7px 90px;
+    font-size: large;
+    border-radius: 5px;
+    flex: 1;
+    border: 0;
+    outline: 0;
+    position: relative;
+    cursor: pointer;
+}
+.button_container{
+    margin-left: 20px;
+   
+}
+.btn1{
+    padding: 9px 30px;
+    border-radius: 5px;
+    border: none;
+    margin:20px;
+   cursor: pointer;
+   background: #ffff76;
+   color: #333;
+  
+}
+.btn2{
+    padding: 9px 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+    background: #ffff76;
+    color: #333;
+}
+p{
+    font-size: 20px;
+}
+.result p span{
+    color: #ffff76;
+}
+.input_box{
+    margin: 40px 0;
+    padding: 35px;
+    border-radius: 10px;
+    background-color: rgba(255, 255,255,0.3);
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+h1::selection{
+    background-color: #ffff76 ;
+    color: black;
+}
